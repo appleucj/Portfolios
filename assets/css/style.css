@@ -1,0 +1,135 @@
+
+  .body {                  
+        background-color: #777777;
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px; 
+        }
+  
+  .head {
+        position:fixed;
+        top:0px;
+        width:100%;
+        color: #777777;
+        background-color: #ffffff;
+        height: 50px;
+        border-bottom: 3px  solid #dddd;
+        }
+
+   .name {
+        font-family: Georgia, Times New Roman, Times, serif;
+        height: 50px;
+        width: 260px;
+        position:absolute;
+        text-align:center;
+        left:100px;
+        top:0px;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 200%;
+        font-weight: bold;
+        vertical-align: middle;
+        } 
+
+   .nav {
+        position: absolute;
+        top:30px;  
+        right:20px;
+        color :#777777;   
+        float:right;
+        }
+    
+    .div {
+          position: relative;
+          width:960px;
+          height:500px;
+          background-color: #ffffff;
+          top:100px;
+          margin:0 auto;
+          font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+          }
+
+    .about {
+          height:70px;
+          width:90%;
+          border-bottom:3px solid #dddddd;
+          color: #4aaaa5;
+          text-align: left;
+          left:50px;
+          position: absolute;
+          }
+
+    .float {
+          float:left;
+           }
+  
+    .img {
+          position:absolute;
+          top:50px;
+          left:30px;
+          width:130px; 
+          height: 180px;
+          }
+    .p {   
+          position: absolute;
+          width:70%;                 
+          left:200px;
+          top:140px;
+          color:#777777;
+           }
+
+    .footer {
+          position: fixed;
+          border-top: 8px solid #4aaaa5;
+          color:wheat;
+          background-color: grey;
+          width:100%;
+          height:50px;
+          text-align: center;
+          vertical-align: middle ;
+          bottom:0px;
+          }
+    
+    .form {
+          position:absolute;
+          width:100%;
+          left:50px;
+          top:100px;
+          color:#777777;
+          }
+
+    input[type=submit]{
+          background-color: #4aaaa5;       
+          color: white;
+          padding: 6px 32px;     
+          margin: 14px 12px;
+          cursor: pointer;
+          position : absolute;
+          bottom : 60px;
+          left:30px;}
+      
+    .message{
+          position:absolute;
+          width:100%;
+          left:50px;
+          top:100px;
+          color:#777777;
+          height: 60px;        
+        }
+
+    input [type=message]{
+          height="150";
+          }
+   
+    .pic{
+          padding-top: 100px;
+          padding-left: 50px;
+          float: left;
+        }
+    
+    .copyright {
+         padding-top: 10px;
+        }
+    
+  
